@@ -1,0 +1,155 @@
+/* CSS for Popular Movie Franchises html */
+
+/* || Body Styles */
+body {
+    background-color: #1c1c1c;
+}
+
+/* || Main title header and description */
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#ShortDescriptionPage {
+    font-size: 22px;
+    text-align: center;
+    color: floralwhite;
+    margin-bottom: 50px;
+}
+
+#PopularHeader {
+    color: #ed1d24;
+}
+
+#MovieHeader {
+    color: white;
+}
+
+/* || Movie Franchise Flex Display Formatting and Styles */
+.MovieFranchises {
+    display: flex;
+    border: 1px solid #c6c6c6;
+}
+
+#FranchisesHeader {
+    color: #0376f2;
+}
+
+.DescriptionFran {
+    font-family: helvetica, serif;
+    color: floralwhite;
+    margin: 5% 2% 15% 2%;
+}
+
+.UseOfFranTerm {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.MovieFranHeaders {
+    font-size: 23px;
+    font-family: helvetica, serif;
+    color: floralwhite;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.ListContentText {
+    font-family: helvetica, serif;
+    font-size: 87%;
+    color: floralwhite;
+}
+
+li {
+    margin: 2%;
+}
+
+/* || Marvel Franchise Box Elements */
+#MarvelLogo {
+    width: 99%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 3px;
+}
+
+.Marvel_Container {
+    width: 100%;
+    border-right: 1px solid #c6c6c6;
+}
+
+#MarvelList {
+    list-style-type: disc;
+}
+
+#MarvelMorePara{
+    font-family: helvetica, serif;
+    font-size: 16px;
+    color: floralwhite;
+    margin-left: 10px;
+}
+
+/* || Star Wars Franchise Box Elements */
+#StarWarsLogo {
+    width: 99%;
+}
+
+.StarWars_Container {
+    width: 100%;
+    border-right: 1px solid #c6c6c6;
+}
+
+#StarWarsList {
+    list-style-type: upper-roman;
+}
+
+/* || Harry Potter Franchise Box Elements */
+#HarryPotterLogo {
+    width: 99%;
+    margin-left: 2px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.HarryPotter_Container {
+    width: 100%;
+    border-right: 1px solid #c6c6c6;
+}
+
+#HarryPotterList {
+    list-style-type: decimal;
+}
+
+/* || DC Franchise Box Elements */
+#DCLogo {
+    width: 59%;
+    margin: 0 20% 1% 21%;
+    background-color: black;
+}
+
+.DC_Container {
+    width: 100%;
+    border-left: 1px solid black;
+}
+
+#DCList {
+    list-style-type: square;
+}
+
+/* || Copyright, Source and Data text Bottom Page Formatting and styles */
+#SourcesText {
+    text-align: center;
+    color: floralwhite;
+    margin: 3% 0 1% 0;
+}
+
+.SourceLogoText {
+    margin-left: 1%;
+}
+
+#DateText {
+    text-align: center;
+    color: floralwhite;
+    margin-bottom: 1%;
+}
