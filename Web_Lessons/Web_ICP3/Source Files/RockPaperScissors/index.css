@@ -1,0 +1,98 @@
+/* CSS for Rock Paper Scissors*/
+
+/* || Body styles */
+body {
+    background-color: #000000 !important;
+}
+ /* Header Styles */
+.headerTitle {
+    font-family: helvetica, serif;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    color: floralwhite;
+}
+
+/* || User Buttons and CPU Images Formatting and Styles */
+.cpuObjects, .ButtonObjects {
+    display: block;
+    text-align: center;
+}
+
+.ButtonObjects {
+    border: 3px solid floralwhite;
+}
+
+.cpuObjects {
+    margin-bottom: 19vw;
+}
+
+.cpuObjects .cpuImgs {
+    width: 8vw;
+    margin: 1vw 3vw 1vw 3vw;
+}
+
+.ButtonObjects .btn {
+    width: 12vw;
+    margin: 1vw 2vw 1vw 2vw;
+}
+
+/* Button shadows when hovering over */
+.ButtonObjects .btn:hover {
+    box-shadow: 0 0 10px 10px white;
+    cursor: pointer;
+}
+
+/* || Middle text and Buttons Formatting and Styles */
+#cpuDisplayTextCol {
+    position: absolute;
+    left: 45.7vw;
+    top: 32%;
+}
+
+#winnerText, #userOption, #cpuDisplayText {
+    color: floralwhite;
+}
+
+#playAgain {
+    display: none;
+    font-weight: bolder;
+    background-color: floralwhite;
+}
+
+#startBtn {
+    background-color: floralwhite;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+/* || columns positioning */
+#startBtnCol {
+    position: absolute;
+    left:45%;
+    top: 50%;
+}
+
+.gameOverCol {
+    position: absolute;
+}
+
+#winnerCol {
+    right: 50%;
+    top: 50%;
+    margin-right: 2%;
+}
+
+#playAgainCol {
+    left: 50%;
+    top: 50%;
+    margin-left: 2%;
+}
+
+#userOptionCol {
+    position: absolute;
+    left: 40%;
+    top: 65%;
+}

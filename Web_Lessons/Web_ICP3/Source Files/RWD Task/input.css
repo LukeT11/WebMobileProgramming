@@ -1,0 +1,45 @@
+/* CSS for RWD Task */
+
+/* Min width screen size for responsiveness */
+@media screen and (min-width: 480px) {
+    /* || Body Styles */
+    body {
+        font-family: lato, sans-serif;
+    }
+
+    /* Column solid box fill */
+    .colBox {
+        border: 3px solid #BCBBBB;
+        background-color: #BCBBBB;
+    }
+
+    /* Header Text style */
+    .HeaderText {
+        text-align: right;
+    }
+
+    /* || Font colors */
+    .GreenText {
+        color: #747704;
+    }
+
+    .GrayText {
+        color: #BCBBBB;
+    }
+
+    /* || Image Sizes */
+    #Bean {
+        width: 100px;
+        height: 100px;
+    }
+
+    #MetaImage {
+        width: 1140px;
+        height: 350px;
+    }
+
+    .featuredWorkImg {
+        width: 555px;
+        height: 300px;
+    }
+}

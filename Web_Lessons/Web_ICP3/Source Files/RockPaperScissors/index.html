@@ -1,0 +1,79 @@
+<!--
+    Luke Talcott
+    ICP3 Rock Paper Scissors
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Header (title, bootstrap file, css file, responsiveness content -->
+<head>
+    <meta charset="UTF-8">
+    <title>RockPaperScissors Game</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="bootstrapfiles/css/bootstrap.css">
+</head>
+
+<!-- Body -->
+<body>
+    <!-- Title of Page -->
+    <h1 class="headerTitle">Rock Paper Scissors</h1>
+    <!-- Container for all the content of the page grid layout of rows and columns -->
+    <div class="container">
+        <!-- CPU rows with columns for Rock, Paper, Scissor Images-->
+        <div class="row justify-content-center">
+            <div class="col-lg-8 cpuObjects">
+                <img class="cpuImgs images img-fluid" id="rockCPUImg" src= "images/RockImg.png" alt="rock">
+                <img class="cpuImgs Images img-fluid" id="paperCPUImg" src= "images/PaperImg.png" alt="paper">
+                <img class="cpuImgs Images img-fluid" id="ScissorsCPUImg" src= "images/ScissorsImg.png" alt="scissors">
+            </div>
+        </div>
+        <!--Start Button row and column-->
+        <div class="row justify-content-center">
+            <div class="col-auto" id="startBtnCol">
+                <button type="button" class="btn" id="startBtn">Click to Start</button>
+            </div>
+        </div>
+        <!--Computer Text row and column-->
+        <div class="row justify-content-center">
+            <div class="col-auto" id="cpuDisplayTextCol">
+                <h2 id="cpuDisplayText">Computer</h2>
+            </div>
+        </div>
+        <!-- Winner and Play again button-->
+        <div class="row justify-content-center">
+            <div class="col-auto gameOverCol" id="winnerCol">
+                <h3 class="gameOverText" id="winnerText"></h3>
+            </div>
+            <div class="col-auto gameOverCol" id="playAgainCol">
+                <button type="button" class="btn gameOverText" id="playAgain">Play Again</button>
+            </div>
+        </div>
+        <!-- Middle text for Choosing an option-->
+        <div class="row justify-content-center">
+            <div class="col-auto" id="userOptionCol">
+                <h4 id="userOption">Choose Rock, Paper or Scissors</h4>
+            </div>
+        </div>
+            <!-- Button choices for User to chooser from Rock, Paper or Scissors-->
+        <div class="row justify-content-center">
+            <div class="col-lg-9 ButtonObjects">
+                <button type="button" class="btn" id="rockUser">
+                    <img class="images img-fluid" id="rockUserImg" src= "images/RockImg.png" alt="rock">
+                </button>
+                <button type="button" class="btn" id="paperUser">
+                    <img class="images img-fluid" id="paperUserImg" src= "images/PaperImg.png" alt="paper">
+                </button>
+                <button type="button" class="btn" id="scissorsUser">
+                    <img class="images img-fluid" id="ScissorsUserImg" src= "images/ScissorsImg.png" alt="scissors">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS script files -->
+    <script src="script.js"></script>
+    <script src="bootstrapfiles/js/bootstrap.bundle.js"></script>
+</body>
+</html>
