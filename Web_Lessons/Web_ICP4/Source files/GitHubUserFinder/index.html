@@ -1,0 +1,40 @@
+<!-- Github User Finder html
+     ICP4
+-->
+
+<!--Head title and included scripts and stylesheets-->
+<html lang="en">
+<head>
+    <title>Github User Finder</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<!--Body for page-->
+<body>
+<!--Header title at top-->
+<header>
+    <h1>Find Me!</h1>
+</header>
+<!--Container for page-->
+<div id="container">
+    <!--Search box GitHub Username-->
+    <div class="search">
+        <input id="username" placeholder="Enter a github username..." type="text"></input>
+    </div>
+    <!--Header if Username not found-->
+    <div><h2 id="notFound"></h2></div>
+    <!--Profile of Username found with name, avatar and info.-->
+    <div class="profile">
+        <div id="profileUsername"></div>
+        <div id="avatar"></div>
+        <!--Information on User searched-->
+        <div class="information">
+            <div class="infoText" id="profileId"></div>
+            <div class="infoText" id="name"></div>
+            <div class="infoText" id="link"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

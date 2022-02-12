@@ -1,0 +1,105 @@
+/*CSS stylesheet for GitHub User Finder*/
+
+/*Body styles*/
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  border-top: 5px solid #4c4066;
+  margin: auto;
+  color: #666666;
+  font-size: 16px;
+}
+
+/*Header at the top*/
+header {
+  text-align: center;
+  background-color: #fdfdfd;
+  border-bottom: 1px solid #e5e2e0;
+  font-size: 2vw;
+}
+
+#logo {
+  position: relative;
+  top: -2px;
+}
+
+/* || Container Styles for the rest of the page*/
+#container {
+  max-width: 1040px;
+  margin: auto;
+  min-height: 490px;
+  padding-bottom: 10px;
+}
+
+/*Search Box and Input styles*/
+.search {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+input[type='text'] {
+  height: 2.2em;
+  font-size: 2em;
+  width: 50%;
+  padding: 5px;
+}
+
+/* || Styles for the profile with user info.*/
+.profile {
+  height: auto;
+  max-width: min-content;
+  padding: 20px 50px 0 50px;
+  display: none;
+  background-color: #0de501;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+
+.profile:hover {
+  background-color: #077201;
+}
+
+/*Username of User styles*/
+#profileUsername{
+  padding: 0 0 15px 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Avatar and Avatar Image styles*/
+#avatar {
+  text-align: center;
+  margin: auto;
+}
+
+#avatarImg {
+  max-width: 32vw;
+  height: auto;
+}
+
+/*Information about the User styles*/
+.information {
+  vertical-align: top;
+  display: inline-block;
+  text-align: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 20px 0 10px 0;
+  font-size: 20px;
+}
+
+.infoText {
+  padding: 0 1px 10px 2px;
+}
+
+/*User not found styles*/
+#notFound {
+  text-align: center;
+}
+
+
+
+
+
