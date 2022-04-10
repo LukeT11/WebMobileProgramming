@@ -5,15 +5,17 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   border-top: 5px solid #4c4066;
   margin: auto;
+  background-color: #1c1c1c;
   color: #666666;
   font-size: 16px;
 }
 
 /*Header at the top*/
 header {
+  padding-top: 5px;
   text-align: center;
-  background-color: #fdfdfd;
-  border-bottom: 1px solid #e5e2e0;
+  background-color: #1c1c1c;
+  border-bottom: 1px solid #939393;
   font-size: 2vw;
 }
 
@@ -42,6 +44,7 @@ input[type='text'] {
   font-size: 2em;
   width: 50%;
   padding: 5px;
+  background-color: floralwhite;
 }
 
 /* || Styles for the profile with user info.*/
@@ -50,7 +53,7 @@ input[type='text'] {
   max-width: min-content;
   padding: 20px 50px 0 50px;
   display: none;
-  background-color: #0de501;
+  background-color: #04c201;
   text-decoration: none;
   color: white;
   margin: auto;

@@ -1,4 +1,4 @@
 ### Luke Talcott
 ldt9gn@umsystem.edu
 
-Documentation of ICP2
+Documentation of ICP2.
