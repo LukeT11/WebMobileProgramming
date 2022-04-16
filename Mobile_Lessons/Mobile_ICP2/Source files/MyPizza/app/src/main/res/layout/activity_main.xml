@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!-- Layout Page-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp"
+        tools:context="com.example.mypizza.MainActivity">
+
+        <!-- Image Pizza -->
+        <ImageView
+            android:id="@+id/pizzaImage"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:src="@drawable/animatepizza"/>
+
+        <!-- Pizza Type Text -->
+        <TextView
+            android:id="@+id/pizzaTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:text="@string/pizzaTypeText"/>
+        <!-- Spinner select Pizza Type -->
+        <Spinner
+            android:id="@+id/pizzaTypeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Text Toppings -->
+        <TextView
+            android:id="@+id/optionalToppings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:text="@string/toppingsText"/>
+        <!-- Layout for Topping Boxes  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <!-- Olives Checkbox-->
+            <CheckBox
+                android:id="@+id/olives"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:textSize="14sp"
+                android:text="@string/olives"/>
+            <!--Green Pepper checkbox -->
+            <CheckBox
+                android:id="@+id/greenPepper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:textSize="14sp"
+                android:text="@string/greenPeppers"/>
+        </LinearLayout>
+
+        <!-- Text Quantity -->
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textSize="20sp"
+            android:text="@string/quantity"/>
+
+        <!-- Layout Quantity Buttons-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <!-- Button decrement quantity -->
+            <Button
+                android:id="@+id/decrement"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:onClick="decrement"
+                android:text="-"/>
+
+            <!--Button increment quantity -->
+            <Button
+                android:id="@+id/increment"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:onClick="increment"
+                android:text="+"/>
+
+            <!-- Text quantity amount-->
+            <TextView
+                android:id="@+id/quantityAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:text="@string/initialQuantityAmount"/>
+
+        </LinearLayout>
+
+        <!-- EditText  Input Name -->
+        <EditText
+            android:id="@+id/userInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/Name"/>
+
+        <!-- Button submit-->
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dp"
+            android:text="Submit"
+            android:onClick="submitOrder"/>
+
+        <!-- Layout Buttons order and summary-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- Button Order -->
+            <Button
+                android:id="@+id/order"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:text="order"
+                android:visibility="gone"/>
+
+            <!-- Button Summary Page -->
+            <Button
+                android:id="@+id/summary"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:text="summary"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <!-- Layout Email and Email Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- EditText Input Email -->
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:hint="@string/Email"
+                android:visibility="gone"/>
+
+            <!-- Button Send Email -->
+            <Button
+                android:id="@+id/sendBtn"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="Email"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <!-- Button Finish Page -->
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Finish"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

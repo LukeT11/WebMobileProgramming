@@ -1,0 +1,31 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyPizza</string>
+    <string name="pizzaTypeText">Pizza Type</string>
+    <string name="toppingsText">Toppings (optional)</string>
+    <string name="cheese">Cheese</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="sausage">Sausage</string>
+    <string name="olives">Olives</string>
+    <string name="greenPeppers">Green Peppers</string>
+    <string name="quantity">Quantity</string>
+    <string name="initialQuantityAmount">1</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email Optional. If not, click finish.</string>
+    <string name="order">Order</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="orderTotal">Total</string>
+    <string name="orderSummaryName">Name: <xliff:g example="Vijaya" id="name">%s</xliff:g></string>
+    <string name="orderSummaryOlives">Add Olives? <xliff:g example="yes" id="addOlives">%s</xliff:g></string>
+    <string name="orderSummaryGreenPeppers">Add Green Peppers? <xliff:g example="yes" id="addGreenPeppers">%s</xliff:g></string>
+    <string name="orderSummaryQuantity">Quantity: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+    <string name="orderSummaryTotal">Total: $ <xliff:g example="10" id="price">%.2f</xliff:g></string>
+    <string name="tooLittlePizza">Must Select at least 1 Pizza</string>
+    <string name="tooMuchPizza">Must Select less than 50 Pizzas</string>
+
+    <string-array name="pizzaOptions">
+        <item>Cheese</item>
+        <item>Pepperoni</item>
+        <item>Sausage</item>
+    </string-array>
+</resources>

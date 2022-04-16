@@ -1,6 +1,6 @@
 ### Luke Talcott
 ldt9gn@umsystem.edu
 
-Source files for ICP1.
+Source files for Mobile ICP2.
 
-Simple Login Application
+Pizza Order Application
